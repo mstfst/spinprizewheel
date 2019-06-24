@@ -1,13 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-See a live demo here:
-[https://strugglesgood.github.io/spinprizewheel](https://strugglesgood.github.io/spinprizewheel)
-
 It is an example of prize wheel app that shows a random prize when the wheel is spun.  This app is made with React and Material UI React UI Framework.  
 
 It is not perfect with regards to some styling, and the process to buy more spins doesn't do complete form validation, but it is an example that I think is working well enough for my purposes of getting started with learning Material UI (Material Design) and making this kind of app.
 
+**NOTE: The CSS-made wheel will only work in [Chrome](https://www.google.com/chrome/) right now.  I could probably find a solution which would be compatible with other browsers, but I just want something quick and simple to demonstrate this project.  I may change this in the future.**
+
 ## Available Scripts
+
+**NOTE: Run `npm install` first in the project directory after cloning.  This is needed before you can run the other commands such as `npm start`**
 
 In the project directory, you can run:
 
