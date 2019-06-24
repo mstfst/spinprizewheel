@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+It is an example of Prize wheel app made with React and Material UI React UI Framework.  
+
+It not perfect with regards to some styling, and the process to buy more spins doesn't do complete form validation, but it is an example that I think is working well enough for my purposes of getting started with learning Material UI (Material Design) and making this kind of app.
+
 ## Available Scripts
 
 In the project directory, you can run:
