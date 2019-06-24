@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 See a live demo here:
 [https://strugglesgood.github.io/spinprizewheel](https://strugglesgood.github.io/spinprizewheel)
 
-It is an example of prize wheel app that shows a random prize when the wheel is spin.  This app is made with React and Material UI React UI Framework.  
+It is an example of prize wheel app that shows a random prize when the wheel is spun.  This app is made with React and Material UI React UI Framework.  
 
 It not perfect with regards to some styling, and the process to buy more spins doesn't do complete form validation, but it is an example that I think is working well enough for my purposes of getting started with learning Material UI (Material Design) and making this kind of app.
 
