@@ -121,7 +121,7 @@ export default function App(props) {
       </div>
       <Snackbar
         open={snackbarOpen}
-        autoHideDuration={6000}
+        autoHideDuration={5000}
         onClose={handleClose}
         TransitionComponent={SnackbarTransition}
         ContentProps={{

@@ -1,4 +1,5 @@
 import React from "react";
+import PieChart from 'react-minimal-pie-chart';
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles(theme => ({
@@ -6,16 +7,16 @@ const useStyles = makeStyles(theme => ({
     position: "relative"
   },
   wheel: {
-    width: "100%",
-    paddingTop: "100%",
-    borderRadius: "50%",
-    background: `conic-gradient(
-      lime 20%, 
-      yellow 0 40%, 
-      red 40% 60%, 
-      blue 60% 80%, 
-      orange 80%
-    )`,
+    // width: "100%",
+    // paddingTop: "100%",
+    // borderRadius: "50%",
+    // background: `conic-gradient(
+    //   lime 20%, 
+    //   yellow 0 40%, 
+    //   red 40% 60%, 
+    //   blue 60% 80%, 
+    //   orange 80%
+    // )`,
     transition: "transform 3s"
   },
   arrow: {
@@ -37,7 +38,15 @@ export default function Wheel({ rotation }) {
   return (
     <div className={classes.root}> 
       <div className={classes.arrow} />
-      <div
+      <PieChart
+        data={[
+          { value: 20, color: 'red' },
+          { value: 20, color: 'blue' },
+          { value: 20, color: 'orange' },
+          { value: 20, color: 'lime' },
+          { value: 20, color: 'yellow' }
+        ]}
+        startAngle={54}
         className={classes.wheel}
         style={{ transform: `rotate(${rotation}deg)` }}
       />
