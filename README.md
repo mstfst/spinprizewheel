@@ -4,7 +4,6 @@ It is an example of prize wheel app that shows a random prize when the wheel is 
 
 It is not perfect with regards to some styling, and the process to buy more spins doesn't do complete form validation, but it is an example that I think is working well enough for my purposes of getting started with learning Material UI (Material Design) and making this kind of app.
 
-**NOTE: The CSS-made wheel will only work in [Chrome](https://www.google.com/chrome/) right now.  I could probably find a solution which would be compatible with other browsers, but I just want something quick and simple to demonstrate this project.  I may change this in the future.**
 
 ## Available Scripts
 
