@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-You can see the demo [here](https://strugglesgood.github.io/spinprizewheel),
+You can see the demo [here](https://strugglesgood.github.io/spinprizewheel).
 
 It is an example of prize wheel app that shows a random prize when the wheel is spun.  This app is made with React and Material UI React UI Framework.  
 
